@@ -1,0 +1,7 @@
+<!--
+	An example reusable component.
+
+	Component creates white-text colored label.
+-->
+
+<Text ux:Class="WhiteText" Color="White"/>

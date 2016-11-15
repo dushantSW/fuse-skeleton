@@ -1,0 +1,22 @@
+<!--
+	This file should only handle the navigation and other necessary code
+	that involves changes in plattform-specific template.
+
+	All the code should be divided into respective pages under Pages folder.
+-->
+<App Background="#022328">
+	<!-- Set status bar of the application -->
+	<Android.StatusBarConfig Color="#022328" />
+    <iOS.StatusBarConfig Style="Light" />
+
+    <!-- Define router -->
+	<Router ux:Name="router"/>
+
+	<!-- Draw everything in ClientPanel, under a navigator -->
+	<ClientPanel>
+		<Navigator DefaultTemplate="splash">
+			<SplashPage ux:Template="splash" router="router"/>
+			<HomePage ux:Template="home" router="router"/>
+		</Navigator>
+	</ClientPanel>
+</App>

@@ -1,0 +1,13 @@
+<!--
+	This UX file contains the components to display home screen.
+	
+	@author {author name}
+-->
+<Page ux:Class="HomePage">
+	<Router ux:Dependency="router"/>
+	<JavaScript File="Models/HomePage.js"/>
+
+	<StackPanel Alignment="Center">
+		<WhiteText>HomePage</WhiteText>
+	</StackPanel>
+</Page>

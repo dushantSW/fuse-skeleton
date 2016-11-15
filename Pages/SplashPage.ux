@@ -1,0 +1,19 @@
+<!--
+	This UX file contains the components to display splash screen
+	when user opens the app.
+	
+	@author {author name}
+-->
+<Page ux:Class="SplashPage">
+	<Router ux:Dependency="router" />
+	<JavaScript File="Models/SplashPage.js"/>
+
+	<Grid RowCount="2">
+		<StackPanel Alignment="VerticalCenter">
+			<WhiteText Alignment="HorizontalCenter" FontSize="70">Fuse Tools</WhiteText>
+			<WhiteText Alignment="HorizontalCenter" Opacity="0.7">Skeleton</WhiteText>
+		</StackPanel>
+
+		<SkeletonButton Text="Get Started" FontSize="18" Margin="50,0" Alignment="VerticalCenter" Clicked="{goToHomePage}" />
+    </Grid>
+</Page>
